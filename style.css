@@ -1,0 +1,85 @@
+body{
+    background-color: #13293D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+
+footer{
+    font-size: 6px;
+}
+
+#faixa_footer{
+    padding: 5px;
+}
+
+#faixa_diferente{
+    padding: 20px;
+}
+
+#faixa_footer, #faixa_diferente{
+    background-color: #02364e;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px #000;
+}
+
+#tudo{
+    padding: 50px;
+}
+#pimg{
+    width: 100px;
+    height: 140px;
+    border-radius: 20px;
+}
+#titulo {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 1500px;
+    font-style: normal;
+}
+#trailer{
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+
+a:hover{
+    color: white;
+    font-size: large;
+    transition: 0.5s;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+button{
+    background-color: #006494;
+    border-radius: 30px;
+    margin-left: 90%;
+    padding: 10px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: #13293D;
+    color: aliceblue;
+}
+.display_div{
+    height: 150px;
+    overflow: auto;
+}
+
+.display_div, .display_div1, .display_div2{
+    display: inline-block;
+    flex-direction: row;
+    background-color: #006494;   
+    border-radius: 2px;
+    margin-top: 2px;
+    padding: 10px;
+    overflow: auto;
+    width: 23%;  
+    text-align: center;
+}
+
